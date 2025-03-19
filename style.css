@@ -1,41 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  #flashcard-container {
-    margin-top: 50px;
-  }
-  
-  .flashcard {
-    width: 300px;
-    height: 200px;
-    background-color: #459123;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #549654;
-    border-radius: 10px;
-  }
-  
-  .card-content {
-    text-align: center;
-  }
-  
-  .hidden {
+.hidden {
     display: none;
   }
   
-  button {
-    margin: 10px;
+  .flashcard {
+    border: 1px solid #23a8e6;
     padding: 10px;
-    background-color: #37681b;
-    color: rgb(13, 58, 182);
-    border: none;
+    margin: 10px;
+    background-color: #107688;
+  }
+  
+  .flashcard button {
+    margin-top: 10px;
+    padding: 5px 10px;
     cursor: pointer;
   }
   
-  button:hover {
-    background-color: #455aa0;
+  .flashcard p {
+    font-size: 16px;
+  }
+  
+  #addFlashcard {
+    padding: 5px 10px;
+    margin-top: 20px;
+    cursor: pointer;
   }
   
