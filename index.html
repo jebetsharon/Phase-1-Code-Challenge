@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f7f7f7;
+    }
+    .flashcard {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .hidden {
+      display: none;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flashcard App</h1>
+
+  <div id="flashcardsContainer"></div>
+
+  <div>
+    <h3>Add a New Flashcard</h3>
+    <label for="newQuestion">Question:</label>
+    <input type="text" id="newQuestion" placeholder="Enter question">
+    <label for="newAnswer">Answer:</label>
+    <input type="text" id="newAnswer" placeholder="Enter answer">
+    <button id="addFlashcard" class="btn">Add Flashcard</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
